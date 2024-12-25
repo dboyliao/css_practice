@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+span {
+  color: white;
+  font-family: roboto, sans-serif;
+}
+
+.container_ {
+  width: 100%;
+}
+
+.nav-header {
+  display: absolute;
+  width: 100%;
+  top: 0;
+  background: #282a36;
+  box-shadow: 0 0.125rem 0.25rem rgba(255, 255, 255, 0.11);
+  font-family: roboto, sans-serif;
+}
+
+.nav-header .container_ {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-bar {
+  width: 80%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+  align-items: center;
+
+  height: 70px;
+}
+
+.nav-bar h2 {
+  margin-left: 1rem;
+}
+
+.nav-bar ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav-bar ul a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+.section {
+  background: rgb(82, 82, 86);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: roboto, sans-serif;
+}
+
+.section > .container_ {
+  display: flex;
+  width: 80%;
+  height: 100vh;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+  margin-top: 10rem;
+}
+
+#profile-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 30%;
+  height: 100%;
+}
+#profile-card img {
+  border-radius: 50%;
+}
+
+#biography-card {
+  display: flex;
+  flex-direction: column;
+  justify-self: flex-start;
+  width: 50%;
+  height: 100%;
+  gap: 10px;
+}
+
+#biography-card h1 {
+  font-size: 2rem;
+}
+
+#biography-card article {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-family: roboto, sans-serif;
+  color: white;
+  text-align: justify;
+}
+
+#biography-card > .container_ {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+}
