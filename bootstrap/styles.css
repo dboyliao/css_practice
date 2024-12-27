@@ -1,0 +1,26 @@
+ul,
+ol {
+  list-style-position: inside;
+}
+
+.main-nav-bar {
+  background-color: blue;
+  color: white;
+}
+
+.login-btn-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.flat-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  align-items: center;
+  list-style: none;
+  margin-bottom: 0;
+}
